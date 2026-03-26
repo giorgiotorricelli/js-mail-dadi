@@ -5,8 +5,8 @@
 // Che ci sia un array da qualche parte?
 // Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
-let numeroComputer = Math.ceil(Math.random() * 6)
-let numeroGiocatore = Math.ceil(Math.random() * 6)
+let numeroComputer = Math.ceil(Math.random() * 6);
+let numeroGiocatore = Math.ceil(Math.random() * 6);
 console.log(`Il tuo dado ha dato ${numeroGiocatore}, il computer ha fatto ${numeroComputer}...`);
 
 if (numeroGiocatore > numeroComputer) {
